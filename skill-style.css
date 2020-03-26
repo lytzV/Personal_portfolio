@@ -1,0 +1,98 @@
+#nav-bar {
+    background-color: rgb(16, 22, 22);
+    width: 65px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 3;
+    min-height: 500px;
+    margin: 0px;
+}
+#skill-page-container {
+    background-color: rgb(19, 36, 36);
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+}
+#project-container {
+    background-color: teal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+    top: 0px;
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    left: 52%;
+}
+.project {
+    background-color: thistle;
+    position: block;
+    height: 30%;
+    width: 29.5%;
+}
+.skill-page-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    width: 50%
+}
+.skill-page-text h1 {
+    color: #4bccd6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 56px;
+}
+.skill-page-text h2 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.skill-page-text li {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15 px;
+}
+.logo {
+    background-color: black;
+    display: block;
+    padding: 8px 0 8px 0;
+}
+.logo img {
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 65px;
+    height: auto;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    margin: 0;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.nav-icon {
+    width: 32px;
+    height: auto;
+    display: block;
+
+}
+.skills-link img {
+    margin-top: 3px;
+    margin-bottom: 7px; 
+}
