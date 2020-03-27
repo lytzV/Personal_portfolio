@@ -8,3 +8,4 @@ OR
 - try grid instead of flex
 - form to email
 - fix all selection background like contact page
+- figure out div scroll in about page
