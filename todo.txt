@@ -9,3 +9,5 @@ OR
 - form to email
 - fix all selection background like contact page
 - figure out div scroll in about page
+- add what am i doing these days
+- fix safari about page
