@@ -10,15 +10,27 @@
     min-height: 500px;
     margin: 0px;
 }
-#home-page-container {
-    top: 0px;
+#contact-page-container {
     position: absolute;
-    left: 65px;
-    right: 0px;
-    height: 100%;
-    bottom: 0px;
-    opacity: 0.7;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+    width: 30%;
+    height: 20%;
+    opacity: 0.6;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
     z-index: 3;
+}
+#contact-page-container ::selection{
+    background: gray;
+}
+#contact-page-container h1{
+    font-size: 40px;
+}
+#contact-page-container p{
+    font-size: 15px;
 }
 #canvas {
     position: absolute;
@@ -27,22 +39,11 @@
     height: 100%;
     z-index: 3;
 }
-.home-page-text {
-    position: absolute;
+.contacts {
     top: 50%;
     transform: translateY(-50%);
-    left: 10%;
-    width: 100%
-}
-.home-page-text h1 {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 56px;
-}
-.home-page-text h2 {
-    color: grey;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+    width: 100%;
+    position: absolute;
 }
 .logo {
     background-color: black;

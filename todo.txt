@@ -5,3 +5,6 @@ OR
 <a target="_blank" href="https://icons8.com/icons/set/development-skill">Development Skill icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 - active, hover, inactive icons
+- try grid instead of flex
+- form to email
+- fix all selection background like contact page
