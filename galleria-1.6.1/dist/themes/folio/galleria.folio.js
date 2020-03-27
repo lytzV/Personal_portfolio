@@ -32,7 +32,7 @@ Galleria.addTheme({
     name: 'folio',
     version: 1.60,
     author: 'Galleria',
-    css: false,
+    css: 'galleria.folio.css',
     defaults: {
         transition: 'pulse',
         thumbCrop: 'width',
