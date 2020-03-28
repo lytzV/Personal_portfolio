@@ -2,13 +2,14 @@
 <html>
     <head>
         <title> 'Sup Recruiters </title>
-        <script type="text/javascript" src="./dat.gui.min.js"></script>
+        <script type="text/javascript" src="background/dat.gui.min.js"></script>
         <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;</script>
         <link href="index-style.css" rel="stylesheet" type="text/css">
+        <script src="tag-cloud/tagcanvas.min.js" type="text/javascript"></script>
     </head>
     <body>
         <canvas id="canvas"></canvas>
-        <script src="script.js"></script>
+        <script src="background/script.js"></script>
         <div id="nav-bar">
             <a class="logo" href="https://lytzv.github.io/">
                 <img src="assets/logo-dark.png" alt="Victor">
@@ -41,6 +42,50 @@
                     Software Engineer / Quantum Computing 
                 </h2>
             </div>
+        </div>
+        <div id="word-cloud-container">
+            <canvas id="cloud">
+                <ul>
+                    <li><a>The Golden Era</a></li>
+                    <li><a>Polyphia</a></li>
+                    <li><a>freeCodeCamp JS</a></li>
+                    <li><a>Nielsen & Chuang</a></li>
+                    <li><a>QAOA</a></li>
+                    <li><a>Neosoul</a></li>
+                    <li><a>Eventure</a></li>
+                    <li><a>Coursera CI/CD</a></li>
+                </ul>
+                <script type="text/javascript">
+                    var options = {
+                        textColour: '#ffffff',
+                        fadeIn: 2000,
+                        textHeight: 10,
+                        maxSpeed: 0.05,
+                        minSpeed: 0.005,
+                        initial: [-0.5,0],
+                        noSelect: true,
+                        noMouse: true,
+                        shuffleTags: true,
+                        txtScale: 2.5,
+                    };
+                    window.onload = function() {
+                      try {
+                        TagCanvas.Start('cloud', '', options);
+                      } catch(e) {
+                        // something went wrong, hide the canvas container
+                        document.getElementById('word-cloud-container').style.display = 'none';
+                      }
+                    };
+                </script>
+                <script type="text/javascript">
+                    $(document).ready(function() {
+                      if( ! $('#myCanvas').tagcanvas({})) 
+                      {
+                        $('#word-cloud-container').hide();
+                      }
+                    });
+                   </script>
+            </canvas>
         </div>
     </body>
 </html>

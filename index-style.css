@@ -27,6 +27,24 @@
     height: 100%;
     z-index: 3;
 }
+#word-cloud-container {
+    position: absolute;
+    top: 0px;
+    height:100%;
+    left: 50%;
+    right: 0px;
+    width: 50%;
+    z-index: 3;
+    opacity: 0.7;
+}
+#cloud {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 100%;
+    height: auto;
+}
 .home-page-text {
     position: absolute;
     top: 50%;
