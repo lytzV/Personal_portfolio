@@ -81,6 +81,7 @@
                 <a href="https://www.youtube.com/watch?v=nyRkOBAGtys"><img src="assets/about/shanghai-thumb.png" alt="Shanghai - written by me"></a>
                 <script>
                     (function() {
+                        if (Galleria) { $("body").text('Galleria works') }
                         Galleria.loadTheme('galleria-1.6.1/src/themes/folio/galleria.folio.js');
                         Galleria.run('.galleria');
                     }());
