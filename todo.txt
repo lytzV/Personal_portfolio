@@ -7,7 +7,6 @@ OR
 - active, hover, inactive icons
 - try grid instead of flex
 - form to email
-- fix all selection background like contact page
 - figure out div scroll in about page
-- add what am i doing these days
-- fix safari about page
+- media query for mobile
+- build global css

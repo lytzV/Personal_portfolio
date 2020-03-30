@@ -1,3 +1,6 @@
+* ::selection{
+    background: gray;
+}
 #nav-bar {
     background-color: rgb(24, 24, 24);
     width: 65px;
@@ -88,14 +91,49 @@
     top:50%;
     transform: translateY(-50%);
 }
+@keyframes switch{
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        content:url("assets/home-text.ico");
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 
+}
+.index-link {
+    transition: 0.5s ease;
+}
+.index-link :hover{
+    animation: switch 0.5s ease;
+}
+.about-link :hover{
+    content:url("assets/me-text.ico");
+}
+.skills-link :hover{
+    content:url("assets/proj-text.ico");
+}
+.achievements-link :hover{
+    content:url("assets/skill-text.ico");
+}
+.contact-link :hover{
+    content:url("assets/contact-text.ico");
+}
 .nav-icon {
     width: 32px;
     height: auto;
     display: block;
-
 }
 .skills-link img {
-    margin-top: 3px;
-    margin-bottom: 7px; 
+    margin-top: 1px;
+    margin-bottom: 3px; 
 }

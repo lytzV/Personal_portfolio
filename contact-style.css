@@ -23,7 +23,7 @@
     font-family: 'Courier New', Courier, monospace;
     z-index: 3;
 }
-#contact-page-container ::selection{
+* ::selection{
     background: gray;
 }
 #contact-page-container h1{
@@ -79,6 +79,6 @@
 
 }
 .skills-link img {
-    margin-top: 3px;
-    margin-bottom: 7px; 
+    margin-top: 1px;
+    margin-bottom: 3px; 
 }
