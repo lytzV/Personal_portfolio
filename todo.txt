@@ -5,8 +5,10 @@ OR
 <a target="_blank" href="https://icons8.com/icons/set/development-skill">Development Skill icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 - active, hover, inactive icons
-- try grid instead of flex
+- try grid instead of flex (scaling problem)
 - form to email
 - figure out div scroll in about page
 - media query for mobile
-- build global css
+- squigly loading
+- preloading? loading page
+- beat quantum computer games? max cut? see how good can you get?
