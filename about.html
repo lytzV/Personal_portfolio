@@ -11,6 +11,14 @@
         <link href="global.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <div class="load-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <script>
+            $(window).on("load",function() {
+                $(".load-wrapper").fadeOut(1000);
+            });
+        </script>
         <canvas id="canvas"></canvas>
         <script src="background/script.js"></script>
         <div id="nav-bar">

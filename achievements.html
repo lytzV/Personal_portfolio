@@ -10,6 +10,14 @@
         <script src="global.js" type="text/javascript"></script>
     </head>
     <body>
+        <div class="load-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+        </div>
+        <script>
+            $(window).on("load",function() {
+                $(".load-wrapper").fadeOut(1000);
+            });
+        </script>
         <canvas id="canvas"></canvas>
         <script src="background/script.js"></script>
         <div id="nav-bar">
@@ -78,6 +86,7 @@
                     <li>Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization [Coursera]</li>
                     <li>Structuring Machine Learning Projects [Coursera]</li>
                     <li>Responsive Web Design [freeCodeCamp]</li>
+                    <li>CI/CD DevOps [Coursera]</li>
                 </ul>
                 <h2>Awards</h2>
                 <ul>
