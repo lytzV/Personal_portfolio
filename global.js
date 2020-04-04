@@ -1,6 +1,9 @@
 var time_in = 90
 var time_out = 0
 var time_hover = 100
+$(window).on("load",function() {
+    $(".load-wrapper").fadeOut(500);
+});
 $(document).ready(function () {
     var obj = $('.infos .index-link img');
     var old_src = obj.attr('src');
