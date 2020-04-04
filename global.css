@@ -30,6 +30,16 @@
     opacity: 1;
     z-index: 5;
 }
+.load-wrapper2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 1;
+    z-index: 5;
+}
 .loader {
     display: inline-block;
     width:240px;

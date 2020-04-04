@@ -3,7 +3,8 @@ var time_out = 0
 var time_hover = 100
 $(window).on("load",function() {
     //$(".load-wrapper").slideUp(2000);
-    $(".load-wrapper").fadeOut(1000)
+    $(".load-wrapper").fadeOut(1200);
+    $(".load-wrapper2").fadeOut(1500);
 });
 $(document).ready(function () {
     var obj = $('.infos .index-link img');
